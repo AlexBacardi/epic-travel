@@ -1,0 +1,120 @@
+ /* tablet */
+ @media (max-width: 1199px) {
+
+     .desktop-only {
+         display: none !important;
+     }
+
+     .container {
+         width: 768px;
+     }
+
+     .container.container-small {
+         width: 768px;
+     }
+
+     .title-1 {
+         font-size: 38px;
+     }
+
+     .nav-list {
+         gap: 30px;
+     }
+
+     .promo {
+         padding-left: 20px;
+         height: 350px;
+         border-radius: 20px;
+     }
+
+     .promo-title {
+         margin-bottom: 0;
+         font-size: 40px;
+     }
+
+     .promo-text {
+         font-size: 18px;
+     }
+
+     .main-content {
+         padding: 60px 0;
+     }
+
+     .content-row {
+         align-items: flex-start;
+         column-gap: 30px;
+     }
+
+     .content-img {
+         border-radius: 20px;
+     }
+
+     .content-img,
+     .content-text {
+         flex: 1;
+     }
+
+     .content-text {
+         row-gap: 10px;
+     }
+
+     .content-text p {
+         font-size: 14px;
+     }
+
+     /* inner-page */
+     .inner-page {
+         padding: 60px 0;
+     }
+
+     .inner-page-title-wrapper {
+         margin-bottom: 40px;
+     }
+
+     /* cards */
+
+     .cards-wrapper {
+         row-gap: 40px;
+     }
+
+     .card {
+         width: 354px;
+     }
+
+     /* article */
+
+     .article-content p {
+         font-size: 16px;
+     }
+
+     /* contacts */
+
+    .contacts-columns {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .address-wrapper {
+        gap: 40px;
+        width: 100%;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+     /* footer */
+
+     .footer {
+         padding: 40px 0;
+     }
+
+     .footer-row {
+         flex-direction: column-reverse;
+         justify-content: flex-start;
+     }
+
+     .footer-contacts {
+         text-align: left;
+     }
+ }
